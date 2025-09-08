@@ -34,4 +34,16 @@ function ageCalc(arr) {
     return arr2;
 }
 
-console.log(ageCalc(arr))
+// console.log(ageCalc(arr));
+let add = parseInt("24") + parseInt(10); //typecasted to string- result is string
+console.log(add);
+
+function sum(n){
+    let sum = 0;
+    for(let i=1;i<n;i++){
+        sum += i;
+    }
+    console.log(sum);
+}
+
+sum(100);
