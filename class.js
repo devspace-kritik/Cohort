@@ -13,6 +13,9 @@ class Rectangle{
     } 
 }
 const obj = new Rectangle(2,4,"red");
+const obj2 = new Rectangle(7,4,"green");
 const area = obj.area();
 const p = obj.paint()
+const area2 = obj.area();
+const p2 = obj2.paint()
 console.log(area);
